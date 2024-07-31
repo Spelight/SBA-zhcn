@@ -1,6 +1,6 @@
 Fuck you SBA
 
-Forget to make backup of the shop.yml and upgrade.yml
+Just finished all translations for shop.yml and upgrade.yml
 
 Stupid plugin reset all files
 
@@ -11,7 +11,7 @@ Shitty programing made Stupid system of files
 I will never laugh again :>
 
 
-Chinese translation for plugin SBA
+Chinese translation for Minecraft plugin SBA
 
 https://www.spigotmc.org/resources/sba-screaming-bedwars-addon-1-8-8-1-21.99149/
 

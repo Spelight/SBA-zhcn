@@ -4,9 +4,11 @@ Forget to make backup of the shop.yml and upgrade.yml
 
 Stupid plugin reset all files
 
-Cause me doing fucking tired job here 
+Caused me doing fucking tired job here AGAIN
 
-I will never smile again :>
+Shitty programing made Stupid system of files
+
+I will never laugh again :>
 
 
 Chinese translation for plugin SBA

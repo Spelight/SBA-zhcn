@@ -1,0 +1,640 @@
+data:
+  - locate: '$blocks'
+    stack: WHITE_WOOL;1;§a方块;§e点击查看!
+    skip: 1
+
+  - write: false
+    stack: 'STONE'
+    id: blocks
+    items:
+      - locate: 'main'
+        stack: WHITE_WOOL;1;§a方块;§e点击查看!
+        skip: 1
+      - locate: '$swords'
+        stack: GOLDEN_SWORD;1;§a近战;§e点击查看!
+      - locate: '$armor'
+        stack: CHAINMAIL_BOOTS;1;§a盔甲;§e点击查看!
+      - locate: '$tools'
+        stack: STONE_PICKAXE;1;§a工具;§e点击查看!
+      - locate: '$bows'
+        stack: BOW;1;§a远程;§e点击查看!
+      - locate: '$potions'
+        stack: BREWING_STAND;1;§a药水;§e点击查看!
+      - locate: '$utility'
+        stack: TNT;1;§a道具;§e点击查看!
+      - stack: GREEN_STAINED_GLASS_PANE;1;§e你已位于此处
+        row: 2
+        column: 1
+      - stack: WHITE_WOOL;16;羊毛;§f4 铁锭.
+        price: 4 of iron
+        properties: applycolorbyteam
+        row: 3
+        column: 1
+      - stack: CLAY;16;粘土;§f12 铁锭.
+        price: 12 of iron
+        row: 3
+        column: 2
+      - stack: GLASS;4;防爆玻璃;§f12 铁锭.
+        price: 12 of iron
+        properties: applycolorbyteam
+        row: 3
+        column: 3
+      - stack: END_STONE;12;末地石;§f24 铁锭.
+        price: 24 of iron
+        row: 3
+        column: 4
+      - stack: LADDER;16;梯子;§f6 铁锭.
+        price: 6 of iron
+        row: 3
+        column: 5
+      - stack: OAK_PLANKS;16;木板;§e4 金锭.
+        price: 4 of gold
+        row: 3
+        column: 6
+      - stack: OBSIDIAN;4;黑曜石;§a4 绿宝石.
+        price: 4 of emerald
+        row: 3
+        column: 7
+
+  - write: false
+    stack: 'STONE'
+    id: swords
+    items:
+      - locate: '$blocks'
+        stack: WHITE_WOOL;1;§a方块;§e点击查看!
+        skip: 1
+      - locate: 'main'
+        stack: GOLDEN_SWORD;1;§a近战;§e点击查看!
+      - locate: '$armor'
+        stack: CHAINMAIL_BOOTS;1;§a盔甲;§e点击查看!
+      - locate: '$tools'
+        stack: STONE_PICKAXE;1;§a工具;§e点击查看!
+      - locate: '$bows'
+        stack: BOW;1;§a远程;§e点击查看!
+      - locate: '$potions'
+        stack: BREWING_STAND;1;§a药水;§e点击查看!
+      - locate: '$utility'
+        stack: TNT;1;§a道具;§e点击查看!
+      - stack: GREEN_STAINED_GLASS_PANE;1;§e你已位于此处
+        row: 2
+        column: 2
+      - stack: STONE_SWORD;1;石剑;§f10 铁锭
+        price: 10 of iron
+        row: 3
+        column: 1
+      - stack: IRON_SWORD;1;铁剑;§f7 金锭
+        price: 7 of gold
+        row: 3
+        column: 2
+      - stack: DIAMOND_SWORD;1;钻石剑;§a5 绿宝石
+        price: 5 of emerald
+        row: 3
+        column: 3     
+      - price: 5 of gold
+        stack:
+          type: STICK
+          display-name: "§6击退棒"
+          lore:
+          - "§e5 金锭"
+          enchants:
+            knockback: 3
+      - stack: MACE;1;重锤;§d5 下界之星
+        price: 5 of netherstar
+        row: 4
+        column: 1
+
+  - write: false
+    stack: 'STONE'
+    id: armor
+    items:
+      - locate: '$blocks'
+        stack: WHITE_WOOL;1;§a方块;§e点击查看!
+        skip: 1
+      - locate: '$swords'
+        stack: GOLDEN_SWORD;1;§a近战;§e点击查看!
+      - locate: 'main'
+        stack: CHAINMAIL_BOOTS;1;§a盔甲;§e点击查看!
+      - locate: '$tools'
+        stack: STONE_PICKAXE;1;§a工具;§e点击查看!
+      - locate: '$bows'
+        stack: BOW;1;§a远程;§e点击查看!
+      - locate: '$potions'
+        stack: BREWING_STAND;1;§a药水;§e点击查看!
+      - locate: '$utility'
+        stack: TNT;1;§a道具;§e点击查看!
+      - stack: GREEN_STAINED_GLASS_PANE;1;§e你已位于此处
+        row: 2
+        column: 3
+      - stack: CHAINMAIL_BOOTS;1;锁链盔甲(永久);§f40 铁锭
+        price: 40 of iron
+        row: 3
+        column: 1
+      - stack: IRON_BOOTS;1;铁盔甲(永久);§e12 金锭
+        price: 12 of gold
+        row: 3
+        column: 2
+      - stack: DIAMOND_BOOTS;1;钻石盔甲(永久);§a8 绿宝石
+        price: 8 of emerald
+        row: 3
+        column: 3
+      - stack: NETHERITE_BOOTS;1;下界合金盔甲(永久);§d8 下界之星
+        price: 8 of netherstar
+        row: 4
+        column: 1
+
+  - write: false
+    stack: 'STONE'
+    id: tools
+    items:
+      - locate: '$blocks'
+        stack: WHITE_WOOL;1;§a方块;§e点击查看!
+        skip: 1
+      - locate: '$swords'
+        stack: GOLDEN_SWORD;1;§a近战;§e点击查看!
+      - locate: '$armor'
+        stack: CHAINMAIL_BOOTS;1;§a盔甲;§e点击查看!
+      - locate: 'main'
+        stack: STONE_PICKAXE;1;§a工具;§e点击查看!
+      - locate: '$bows'
+        stack: BOW;1;§a远程;§e点击查看!
+      - locate: '$potions'
+        stack: BREWING_STAND;1;§a药水;§e点击查看!
+      - locate: '$utility'
+        stack: TNT;1;§a道具;§e点击查看!
+      - stack: GREEN_STAINED_GLASS_PANE;1;§e你已位于此处
+        row: 2
+        column: 4
+      - stack: SHEARS;1;剪刀;§f20 铁锭
+        price: 20 of iron
+        row: 3
+        column: 1
+      - stack: WOODEN_PICKAXE;1;木镐;§f10 铁锭
+        price: 10 of iron
+        row: 3
+        column: 2
+      - stack: WOODEN_AXE;1;木斧;§f10 铁锭
+        price: 10 of iron
+        row: 3
+        column: 3
+      - stack: IRON_PICKAXE;1;铁镐;§f20 铁锭
+        price: 20 of iron
+        row: 3
+        column: 4
+      - stack: IRON_AXE;1;铁斧;§f20 铁锭
+        price: 20 of iron
+        row: 3
+        column: 5
+      - stack: DIAMOND_PICKAXE;1;钻石镐;§e12 金锭
+        price: 12 of gold
+        row: 3
+        column: 6
+      - stack: DIAMOND_AXE;1;钻石斧;§e12 金锭
+        price: 12 of gold
+        row: 3
+        column: 7
+      - stack: NETHERITE_PICKAXE;1;下界合金镐;§d4 下界之星
+        price: 4 of netherstar
+        row: 4
+        column: 1
+      - stack: NETHERITE_AXE;1;下界合金斧;§e5 下界之星
+        price: 5 of netherstar
+        row: 4
+        column: 2
+
+
+  - write: false
+    stack: 'STONE'
+    id: bows
+    items:
+      - locate: '$blocks'
+        stack: WHITE_WOOL;1;§a方块;§e点击查看!
+        skip: 1
+      - locate: '$swords'
+        stack: GOLDEN_SWORD;1;§a近战;§e点击查看!
+      - locate: '$armor'
+        stack: CHAINMAIL_BOOTS;1;§a盔甲;§e点击查看!
+      - locate: '$tools'
+        stack: STONE_PICKAXE;1;§a工具;§e点击查看!
+      - locate: 'main'
+        stack: BOW;1;§a远程;§e点击查看!
+      - locate: '$potions'
+        stack: BREWING_STAND;1;§a药水;§e点击查看!
+      - locate: '$utility'
+        stack: TNT;1;§a道具;§e点击查看!
+      - stack: GREEN_STAINED_GLASS_PANE;1;§e你已位于此处
+        row: 2
+        column: 5
+      - stack: BOW;1;弓;§e12 金锭
+        price: 12 of gold
+        row: 3
+        column: 1
+      - price: 24 of gold
+        stack:
+          type: BOW
+          lore:
+          - "§e24 金锭"
+          enchants:
+            power: 1
+      - price: 6 of emerald
+        stack:
+          type: BOW
+          lore:
+          - "§a6 绿宝石"
+          enchants:
+            punch: 1
+            power: 1
+      - price: 2 of gold
+        stack:
+            type: ARROW
+            lore:
+            - "§e2 金锭"
+            amount: 8
+
+  - write: false
+    stack: 'STONE'
+    id: potions
+    items:
+      - locate: '$blocks'
+        stack: WHITE_WOOL;1;§a方块;§e点击查看!
+        skip: 1
+      - locate: '$swords'
+        stack: GOLDEN_SWORD;1;§a近战;§e点击查看!
+      - locate: '$armor'
+        stack: CHAINMAIL_BOOTS;1;§a盔甲;§e点击查看!
+      - locate: '$tools'
+        stack: STONE_PICKAXE;1;§a工具;§e点击查看!
+      - locate: '$bows'
+        stack: BOW;1;§a远程;§e点击查看!
+      - locate: 'main'
+        stack: BREWING_STAND;1;§a药水;§e点击查看!
+      - locate: '$utility'
+        stack: TNT;1;§a道具;§e点击查看!
+      - stack: GREEN_STAINED_GLASS_PANE;1;§e你已位于此处
+        row: 2
+        column: 6
+      - row: 3
+        column: 1
+        stack:
+          type: POTION
+          display-name: "§5生命恢复 I"
+          lore:
+          - "§e6 金锭"
+          potion-type: healing
+        price: 6 of gold
+
+      - row: 3
+        column: 2
+        price: 2 of emerald
+        stack:
+          type: POTION
+          display-name: "§b隐形(30秒)"
+          lore:
+          - "§a2 绿宝石"
+          effects:
+            - effect: invisibility
+              duration: 600
+              amplifier: 1
+      - row: 3
+        column: 3
+        price: 1 of emerald
+        stack:
+          type: POTION
+          display-name: "§b跳跃提升Ⅴ(45秒)"
+          lore:
+          - "§a1 绿宝石"
+          effects:
+            - effect: jump_boost
+              duration: 900
+              amplifier: 5
+      - row: 3
+        column: 4
+        price: 1 of emerald
+        stack:
+          type: POTION
+          display-name: "§b速度Ⅱ(45秒)"
+          lore:
+          - "§a1 绿宝石"
+          effects:
+            - effect: speed
+              duration: 900
+              amplifier: 2
+      - row: 3
+        column: 5
+        price: 7 of gold
+        stack:
+          type: POTION
+          display-name: "§b缓降(20秒)"
+          lore:
+          - "§e7 金锭"
+          effects:
+            - effect: slow_falling
+              duration: 400
+              amplifier: 2
+
+  - write: false
+    stack: 'STONE'
+    id: utility
+    items:
+      - locate: '$blocks'
+        stack: WHITE_WOOL;1;§a方块;§e点击查看!
+        skip: 1
+      - locate: '$swords'
+        stack: GOLDEN_SWORD;1;§a近战;§e点击查看!
+      - locate: '$armor'
+        stack: CHAINMAIL_BOOTS;1;§a盔甲;§e点击查看!
+      - locate: '$tools'
+        stack: STONE_PICKAXE;1;§a工具;§e点击查看!
+      - locate: '$bows'
+        stack: BOW;1;§a远程;§e点击查看!
+      - locate: '$potions'
+        stack: BREWING_STAND;1;§a药水;§e点击查看!
+      - locate: 'main'
+        stack: TNT;1;§a道具;§e点击查看!
+      - stack: GREEN_STAINED_GLASS_PANE;1;§e你已位于此处
+        row: 2
+        column: 7
+      - price: 3 of gold
+        row: 3
+        column: 1
+        stack:
+          type: GOLDEN_APPLE
+          display-name: "金苹果"
+          lore:
+          - "§e3 金锭"
+      - price: 8 of gold
+        properties: "autoigniteabletnt"
+        row: 3
+        column: 2
+        stack:
+          type: TNT
+          display-name: "TNT"
+          lore:
+          - "§e8 金锭"
+      - price: 12 of gold
+        row: 3
+        column: 3
+        stack:
+          type: ENDER_PEARL
+          display-name: "末影珍珠"
+          lore:
+          - "§e12 金锭"
+      - price: 20 of iron
+        row: 3
+        column: 4
+        stack:
+          type: WATER_BUCKET
+          display-name: "水桶"
+          lore:
+          - "§f20 铁锭"
+      - price: 10 of gold
+        properties: "TNTSheep"
+        stack:
+          type: sheep_spawn_egg
+          display-name: "炸弹羊"
+          lore:
+          - "8秒内自动索敌并爆炸"
+          - "§e10 金锭"
+      - price: 120 of iron
+        properties:
+          - name: "Golem"
+            speed: 0.25
+            follow: 16.0
+        stack:
+          type: GHAST_SPAWN_EGG
+          display-name: "梦境守护者"
+          lore:
+            - "§f120 铁锭"
+      - price: 20 of iron
+        properties:
+          - name: "rescueplatform"
+            delay: 5
+        stack:
+          type: blaze_rod
+          display-name: "自救平台"
+          lore:
+          - "§f20 铁锭"
+      - price: 12 of gold
+        properties:
+          - name: "protectionwall"
+        stack:
+          type: bricks
+          display-name: "保护墙"
+          lore:
+          - "§e12 金锭"
+      - price: 40 of iron
+        properties: "ThrowableFireball"
+        stack:
+          type: FIRE_CHARGE
+          display-name: "火球"
+          lore:
+            - "§f40 铁锭"
+      - price: 1 of emerald
+        row: 4
+        column: 1
+        properties: "BridgeEgg"
+        stack:
+          type: EGG
+          display-name: "§e搭桥蛋"
+          lore:
+            - "§a1 绿宝石"
+      - price: 40 of iron
+        row: 4
+        column: 2
+        properties: "PopupTower"
+        stack:
+          type: CHEST
+          display-name: "§a遇水变大变高"
+          lore:
+            - "§f40 铁锭"
+      - price: 12 of gold
+        row: 4
+        column: 4
+        stack:
+          type: WIND_CHARGE
+          display-name: "§a风弹"
+          lore:
+            - "§e12 金锭"
+
+  - locate: '$swords'
+    stack: GOLDEN_SWORD;1;§a近战;§e点击查看!
+
+  - locate: '$armor'
+    stack: CHAINMAIL_BOOTS;1;§a盔甲;§e点击查看!
+
+  - locate: '$tools'
+    stack: STONE_PICKAXE;1;§a工具;§e点击查看!
+
+  - locate: '$bows'
+    stack: BOW;1;§a远程;§e点击查看!
+
+  - locate: '$potions'
+    stack: BREWING_STAND;1;§a药水;§e点击查看!
+
+  - locate: '$utility'
+    stack: TNT;1;§a道具;§e点击查看!
+
+
+     
+
+  - stack: WHITE_WOOL;16;羊毛;§f4 铁锭.
+    properties: applycolorbyteam
+    price: 4 of iron
+    row: 3
+    column: 1
+
+  - stack: STONE_SWORD;1;石剑;§f10 铁锭
+    price: 10 of iron
+    row: 3
+    column: 2
+
+  - stack: CHAINMAIL_BOOTS;1;锁链盔甲(永久);§f40 铁锭
+    price: 40 of iron
+    row: 3
+    column: 3
+
+  - stack: DIAMOND_SWORD;1;钻石剑;§a5 绿宝石
+    price: 5 of emerald
+    row: 3
+    column: 4
+
+  - stack: BOW;1;弓;§e12 铁锭
+    price: 12 of gold
+    row: 3
+    column: 5
+
+  - row: 3
+    column: 6
+    stack:
+      type: POTION
+      display-name: "§5生命恢复 I"
+      lore:
+      - "§e6 金锭"
+      potion-type: healing
+      price: 6 of gold
+
+  - stack:
+      type: TNT
+      display-name: "TNT"
+      lore:
+      - "§e8 金锭"
+    price: 8 of gold
+    properties: "autoigniteabletnt"
+    row: 3
+    column: 7
+
+  - stack: OAK_PLANKS;16;木板;§e4 金锭
+    price: 4 of gold
+    row: 4
+    column: 1
+
+  - stack: IRON_SWORD;1;铁剑;§e7 金锭
+    price: 7 of gold
+    row: 4
+    column: 2
+
+  - stack: IRON_BOOTS;1;铁盔甲(永久);§e12 金锭
+    price: 12 of gold
+    row: 4
+    column: 3
+
+  - stack: SHEARS;1;剪刀;§f20 铁锭
+    price: 20 of iron
+    row: 4
+    column: 4
+
+  - stack: ARROW;8;箭;§e2 金锭
+    price: 2 of gold
+    row: 4
+    column: 5
+
+  - row: 4
+    column: 6
+    price: 2 of emerald
+    stack:
+      type: POTION
+      display-name: "§b隐形(30秒)"
+      lore:
+      - "§a2 绿宝石"
+      effects:
+        - effect: invisibility
+          duration: 600
+          amplifier: 1
+
+  - stack: WATER_BUCKET;1;水桶;§f20 铁锭
+    row: 4
+    column: 7
+    price: 20 of iron
+
+  - stack: "RED_STAINED_GLASS_PANE;1;§e快捷购买;§e先右键此槽位;§e然后左键某个物品以将其添加至此"
+    price: 1 of iron
+    lore:
+      - "§7Right click to set"
+    properties: 
+      name: "quickbuy"
+      id: 1
+    row: 5
+    column: 1
+
+  - stack: "RED_STAINED_GLASS_PANE;1;§e快捷购买;§e先右键此槽位;§e然后左键某个物品以将其添加至此"
+    price: 1 of iron
+    lore:
+      - "§7Right click to set"
+    properties: 
+      name: "quickbuy"
+      id: 2
+    row: 5
+    column: 2
+
+  - stack: "RED_STAINED_GLASS_PANE;1;§e快捷购买;§e先右键此槽位;§e然后左键某个物品以将其添加至此"
+    price: 1 of iron
+    lore:
+      - "§7Right click to set"
+    properties: 
+      name: "quickbuy"
+      id: 3
+    row: 5
+    column: 3
+
+  - stack: "RED_STAINED_GLASS_PANE;1;§e快捷购买;§e先右键此槽位;§e然后左键某个物品以将其添加至此"
+    price: 1 of iron
+    lore:
+      - "§7Right click to set"
+    properties: 
+      name: "quickbuy"
+      id: 4
+    row: 5
+    column: 4
+
+  - stack: "RED_STAINED_GLASS_PANE;1;§e快捷购买;§e先右键此槽位;§e然后左键某个物品以将其添加至此"
+    price: 1 of iron
+    lore:
+      - "§7Right click to set"
+    properties: 
+      name: "quickbuy"
+      id: 5
+    row: 5
+    column: 5
+
+  - stack: "RED_STAINED_GLASS_PANE;1;§e快捷购买;§e先右键此槽位;§e然后左键某个物品以将其添加至此"
+    price: 1 of iron
+    lore:
+      - "§7Right click to set"
+    properties: 
+      name: "quickbuy"
+      id: 6
+    row: 5
+    column: 6
+
+  - stack: "RED_STAINED_GLASS_PANE;1;§e快捷购买;§e先右键此槽位;§e然后左键某个物品以将其添加至此"
+    price: 1 of iron
+    lore:
+      - "§7Right click to set"
+    properties: 
+      name: "quickbuy"
+      id: 7
+    row: 5
+    column: 7
+
+  - stack: GREEN_STAINED_GLASS_PANE;1;§e你已位于此处
+    row: 2
+    column: 0

@@ -1,0 +1,113 @@
+data:
+  - stack: "IRON_CHESTPLATE;1;保护;点击升级保护;§b4钻石"
+    row: 3
+    column: 2
+    price: 4 of diamond
+    properties: protection
+
+  - stack: "IRON_SWORD;1;锋利;点击升级锋利;§b7钻石"
+    row: 3
+    column: 1
+    price: 7 of diamond
+    properties: sharpness
+
+  - stack: "GOLDEN_PICKAXE;1;效率;点击升级效率;§b3钻石"
+    price: 4 of diamond
+    row: 3
+    column: 3
+    properties: efficiency
+
+  - stack: "BEACON;1;§e治愈池;在基地中附加生命恢复效果;§b3钻石"
+    column: 4
+    row: 3
+    properties: healpool
+    price: 3 of diamond
+
+  - stack: "LEATHER;1;陷阱"
+    row: 3
+    column: 6
+    items:
+      - price: 2 of diamond
+        row: 3
+        column: 1
+        skip: 1
+        properties: blindtrap
+        stack:
+          type: STRING
+          display-name: "§b失明陷阱"
+          lore:
+            - "§7在敌人进入基地 7 格范围内时通知你的队伍"
+            - "§7并对敌人施加失明效果"
+            - "§b2钻石"
+
+      - price: 2 of diamond
+        row: 3
+        column: 2
+        skip: 1
+        properties: minertrap
+        stack:
+          type: STRING
+          display-name: "§b挖掘疲劳陷阱"
+          lore:
+            - "§7在敌人进入基地 7 格范围内时通知你的队伍"
+            - "§7并对敌人施加挖掘疲劳效果"
+            - "§b2钻石"
+
+      - price: 4 of diamond
+        row: 3
+        column: 3
+        skip: 1
+        properties:
+          name: trap
+          identifier: custom_trap_1
+          target: team
+          effects:
+            - type: strength
+              duration: 200
+              level: 1
+            - type: speed
+              duration: 200
+              level: 2
+        stack:
+          type: STRING
+          display-name: "§b增益陷阱"
+          lore:
+            - "§7在敌人进入基地 7 格范围内时通知你的队伍"
+            - "§7并给予你的队伍 10秒 力量Ⅰ与加速Ⅱ效果"
+            - "§b4钻石"
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 0
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 1
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 2
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 3
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 4
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 5
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 6
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 7
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 8
